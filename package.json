@@ -1,13 +1,16 @@
 {
-  "name": "react-native-barcode-builder",
-  "version": "2.0.0",
+  "name": "@react-native-oh-tpl/react-native-barcode-builder",
+  "version": "2.0.0-0.0.1",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wonsikin/react-native-barcode-builder.git"
+    "url": "https://github.com/react-native-oh-library/react-native-barcode-builder.git"
   },
   "license": "Apache 2.0",
   "main": "index.js",
+  "harmony": {
+    "alias": "react-native-barcode-builder"
+  },
   "typings": "index.d.ts",
   "scripts": {
     "lint": "eslint ./"
