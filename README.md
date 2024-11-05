@@ -1,44 +1,13 @@
-# react-native-barcode-builder
+# @react-native-oh-tpl/react-native-barcode-builder
 
-React Native component to generate barcodes. Uses [JsBarcode](https://github.com/lindell/JsBarcode) for encoding of data.
+This project is based on [react-native-barcode-builder](https://github.com/wonsikin/react-native-barcode-builder)
 
-## Getting started
+## Documentation URL
 
-### Step 1
+- [中文](https://gitee.com/react-native-oh-library/usage-docs/blob/master/zh-cn/react-native-barcode-builder.md)
 
-This library uses [@react-native-community/art](https://github.com/react-native-community/art) to draw vector graphics.
+- [英文](https://gitee.com/react-native-oh-library/usage-docs/blob/master/en/react-native-barcode-builder.md)
 
-### Step 2
+## License
 
-Install `react-native-barcode-builder`:
-
-```shell
-    npm install react-native-barcode-builder --save
-```
-
-### Step 3
-
-Start using the component
-
-```javascript
-import Barcode from "react-native-barcode-builder";
-
-<Barcode value="Hello World" format="CODE128" />;
-```
-
-You can find more info about the supported barcodes in the [JsBarcode README](https://github.com/lindell/JsBarcode#supported-barcodes).
-
-![demo](./images/example.png)
-
-## Properties
-
-| Property   | Description                                        |
-| ---------- | -------------------------------------------------- |
-| value      | What the barcode stands for (required).            |
-| format     | Which barcode type to use (default: CODE128).      |
-| width      | Width of a single bar (default: 2)                 |
-| height     | Height of the barcode (default: 100)               |
-| text       | Override text that is displayed.                   |
-| lineColor  | Color of the bars and text (default: #000000)      |
-| background | Background color of the barcode (default: #ffffff) |
-| onError    | Handler for invalid barcode of selected format     |
+This library is licensed under [The MIT License (MIT)](https://github.com/wonsikin/react-native-barcode-builder/blob/master/LICENSE) 
