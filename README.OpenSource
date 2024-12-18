@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-barcode-builder",
+        "License": "Apache License",
+        "License File": "https://github.com/wonsikin/react-native-barcode-builder/blob/master/LICENSE",
+        "Version Number": "2.0.0",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/wonsikin/react-native-barcode-builder",
+        "Description": "React Native component to generate barcodes. Uses JsBarcode for encoding of data."
+    }
+]
